@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            width: 100%;
+        }
+        header, footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 25px;     
+        }
+        nav {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 35px;
+            font-size: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            padding: 7px 40px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 22px;
+        }
+        nav a:hover {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            border: 1px solid rgb(255, 255, 255);
+        }
+        .cont {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin-top: 10px;
+        }
+        .tovar {
+            width: 450px;
+            height: 480px;
+            background-color: rgb(227, 225, 231);
+            border-radius: 12px;
+            margin: 10px;
+        }
+        .tovar img {
+            max-width: 85%;
+            border-radius: 12px;
+            margin: 20px;
+        }
+        img{
+            width:300px;
+            height: 300px;
+        }
+        .cont{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .tovar:hover{
+            transform: scale(1.12);
+            transition: 0.5s ease;
+        }
+    </style>
+</head>
+<body>     
+    <header>
+        <h1>NURCHIC</h1>
+        <nav>
+            <a href="D:\BAKYT\index1.html">Балдар</a>
+            <a href="D:\BAKYT\index2.html">Кыздар</a>
+            <a href="index3.html">Бут кийим</a>
+            <a href="D:\BAKYT\index4.html">Машыгучу кийим</a>
+            <a href="D:\BAKYT\index6.html">Байланыш номер</a>
+        </nav>
+    </header>
+    <main>
+        <h2>КИЙИМДЕР</h2>
+        <section class="cont">
+            <div class="tovar">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <h2>SPORT</h2>
+                <p>Баасы 3500сом</p>
+                <button> Сатып алуу</button>
+            </div>
+            <div class="tovar">
+                <img src="https://ae04.alicdn.com/kf/H4f92093d5a0b4c4598ae738fb51d84f2o.jpg_480x480.jpg" alt="">
+                <h2>DVOIKA</h2>
+                <p>Баасы 5000 сом</p>
+                <button> Сатып алуу</button>
+            </div>
+                <div class="tovar">
+                    <img src="https://baston.com.ua/wp-content/uploads/2019/02/krossovki-suede-classic-black-zamsha-1.jpg" alt="">
+                    <h2>PUMA</h2>
+                    <P>Баасы 3499 сом</P>
+                    <button> Сатып алуу</button>
+            </div>
+            <div class="tovar">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPUjSt8luGI5Otu7_Kr9KLE0M06CkMVTv53w&s" alt="">
+                <h2>SPORT</h2>
+                <p>Баасы 2990</p>
+                <button> Сатып алуу</button>
+            </div>
+            <div class="tovar">
+                <img src="https://catalog-cdn.detmir.st/media/7l29JfaH147rrLzltN-4BYa5xd1caJh_xoLMwvLmKgA=.jpeg" alt="">
+                <h2>Футбока</h2>
+                <p>Баасы 590сом</p>
+                <button> Сатып алуу</button>
+            </div>
+            <div class="tovar">
+                <img src="https://static.richfamily.ru/photo/43/30/433020/420x560/1.webp" alt="">
+                <h2>Крософка</h2>
+                <p>Баасы 4000сом</p>
+                <Button> Сатып алуу</Button>
+            </div>
+             <div class="tovar">
+                <img src="https://sportiq.ru/uploadedFiles/eshopimages/big/profi-belyy_3.jpg" alt="">
+                <h2>Кимоно для дзюдо</h2>
+                <P>Баасы 3599сом</P>
+                <button> Сатып алуу</button>
+             </div>
+        </section>
+    </main>
+</body>
+</html>

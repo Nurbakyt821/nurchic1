@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+            background-color: rgb(255, 255, 255);
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            width: 100%;
+        }
+        header, footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 25px;     
+        }
+        nav {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 35px;
+            font-size: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            padding: 7px 40px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 22px;
+        }
+        nav a:hover {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            border: 1px solid rgb(27, 76, 109);
+        }
+        .cont {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin-top: 10px;
+        }
+        .tovar {
+            width: 450px;
+            height: 480px;
+            background-color: rgb(227, 225, 231);
+            border-radius: 12px;
+            margin: 10px;
+        }
+        .tovar img {
+            max-width: 85%;
+            border-radius: 12px;
+            margin: 20px;
+        }
+        img{
+            width:300px;
+            height: 300px;
+        }
+        .cont{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .tovar:hover{
+            transform: scale(1.12);
+            transition: 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NURCHIC</h1>
+         <nav>
+            <a href="D:\BAKYT\index1.html">Балдар</a>
+            <a href="D:\BAKYT\index2.html">Кыздар</a>
+            <a href="index3.html">Бут кийим</a>
+            <a href="D:\BAKYT\index6.html">Байланыш номер</a>
+             <a href="D:\BAKYT\index.html">Башкы бет</a>
+        </nav>
+    </header>
+    <main>
+        <h2>КИЙИМДЕР</h2>
+        <section class="cont">
+            <div class="tovar">
+                <img src="https://img5.lalafo.com/i/posters/api/8c/ed/88/781b9cd4217a51023c88d99b0a.jpeg" alt="">
+                <h2>SPORT</h2>
+                <p>Баасы 5500сом</p>
+                <button> Сатып алуу</button>
+            </div>
+            <div class="tovar">
+                <img src="https://ky.come4buy.com/cdn/shop/products/men-high-top-light-non-slip-soccer-shoes-220907002001p.jpg?v=1692156267" alt="">
+                <h2>Футболный крос</h2>
+                <p>Баасы 5599 сом</p>
+                <button> Сатып алуу</button>
+            </div>
+                <div class="tovar">
+                    <img src="https://uz.rizesport.uz/thumb/2/JfFG85zhSoLMymtbz4HNhg/400r400/d/photo_2024-10-05_11-10-44.jpg" alt="">
+                    <h2>Sport </h2>
+                    <P>Баасы 4599 сом</P>
+                    <button> Сатып алуу</button>
+            </div>
+            <div class="tovar">
+                <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/s/12/b11d62a5-5b77-4209-a8b5-affa6f52547f.jpg" alt="">
+                <h2>Васкетболный форма</h2>
+                <p>Баасы 3245сом</p>
+                <button> Сатып алуу</button>
+            </div>
+            <div class="tovar">
+                <img src="https://ky.come4buy.com/cdn/shop/products/gym-tight-leggings-sport-clothes-221222014034.jpg?v=1671696644" alt="">
+                <h2>Tracksuits Leggings</h2>
+                <p>Баасы 3000сом</p>
+                <button> Сатып алуу</button>
+            </div>
+            <div class="tovar">
+                <img src="https://images-cdn.ubuy.co.id/6589acf4c1dd181f096b3f7c-gliglittr-toddler-kid-basketball-jersey.jpg" alt="">
+                <h2>Türkiye GLIGLITTR</h2>
+                <p>Баасы 3500сом</p>
+                <Button> Сатып алуу</Button>
+            </div>
+             <div class="tovar">
+                <img src="https://images.satu.kz/222479602_w600_h600_222479602.jpg" alt="">
+                <h2>Футбольный форма</h2>
+                <P>Баасы 2599сом</P>
+                <button> Сатып алуу</button>
+             </div>
+              <div class="tovar">
+                <img src="https://esport.az/uploads/products/qapici-elceyi-predator-adidas-17488-rs.webp" alt="">
+                <h2>Футбольный причатки</h2>
+                <P>Баасы 2599сом</P>
+                <button> Сатып алуу</button>
+              </div>
+               <div class="tovar">
+                <img src="https://st2.stpulscen.ru/images/product/416/773/172_original.jpg" alt="">
+                <h2>Кимоно для дзюдо MIZUNO </h2>
+                <P>Баасы 3299сом</P>
+                <button> Сатып алуу</button>
+              </div>
+        </section>
+    </main>
+</body>
+</html>
